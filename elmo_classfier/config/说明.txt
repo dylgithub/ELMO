@@ -1,0 +1,5 @@
+elmo_seg_vocab.txt中存的是ELMO语言模型训练集分词的结果
+注意要加上那三个特殊标识符，同时词是根据词频降序排列的
+elmo_char_vocab.txt是分词文本的char表示，注意char的顺序和词一致就行
+lm_weights.hdf5是训练ELMO语言模型之后所保存的网络权值的文件（训练语言模型会生成）
+options.json操作节点文件（训练语言模型会生成）
